@@ -208,6 +208,9 @@ a:hover{
         display: none;
         /* hacemos invisible */
     }  
+    #portada{
+        display: none;
+    }
     #iconosfooter p{
         display: inline-block;
         text-align: center;
