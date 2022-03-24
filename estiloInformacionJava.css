@@ -1,0 +1,196 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    background-color: #ff7700;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23cc0000' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23aa0000' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23d6002b' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23b10022' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23d9004b' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23b2003d' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23d3006c' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23ac0057' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23c4008c' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%239e0071' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23aa00aa' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23880088' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+nav{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    position: relative;
+    box-shadow: 1px 1px 10px black;
+    margin-bottom: 5px;
+}
+
+#icono{
+    position: absolute;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+h2{
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    font-size: 200%;
+    margin-top: 0.7rem;
+    margin-left: 5rem;
+    margin-bottom: 0.5rem;
+    }
+
+
+ul{
+    float: right;
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;    
+}
+li{
+    list-style: none;
+    display: inline-block;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-right: 0.7rem;
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1.3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+a:hover{
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    text-shadow: 1px 3px 4px rgb(0, 0, 0,0.3);
+    transition: all .3s;
+    cursor: pointer;
+}
+
+
+.Contenedor{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+} 
+ #img{
+    width: 70%;
+    height: 90%;
+    background-size: cover;
+} 
+ .Contenedor1{
+    display: flex;
+    flex-wrap: wrap;
+}
+#Contenedor1{
+    margin-top: 10px;
+    padding: 20px;
+    min-width: 250px;
+    flex: 1;
+}
+#Contenedor1:first-child{
+    flex: 1;
+}
+#Contenedor1 h1{
+    font-size: 30px;
+    font-style: italic;
+}
+#Contenedor1 h3{
+    margin-top: 10px;
+    font-size: 20px;
+    font-style: italic;
+    text-align: left;
+    font-weight: 200;
+}
+.Descargas p{
+    text-align: left;
+    margin-top: 5px;
+    margin-left: 40px;
+    color: white;
+}
+
+
+.Titulo{
+    text-align: left;
+    font-size: 20px;
+}
+
+
+.Modulos{
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: 1px 1px 5px white;
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 600;
+}
+
+
+
+#Modulo{
+    flex: 1;
+    padding: 10px;    
+    box-shadow: 1px 1px 2px white;
+
+}
+#Modulo:first-child{
+    flex: 1;
+}
+#Modulo h1{
+    text-align: center;
+    color: rgb(14, 28, 216);
+}
+#Modulo h3{
+    margin-left: 20px;
+}
+#Modulo p {
+    margin-top: 10px;
+    margin-left: 40px;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+
+#TituloContenido{
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-style: italic;
+}
+
+
+
+#iconosfooter{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+.iconosRedes{
+    width: 30px;
+    background-size: cover;
+}
+#iconosfooter p{
+    display: inline-block;
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+    color: white;
+
+}
+
+@media screen  and (max-width:800px){
+    #MenuInicio{    
+        display: none;
+        /* hacemos invisible */
+    }  
+}
+@media screen  and (max-width:500px){
+    nav{    
+        display: none;
+        /* hacemos invisible */
+    }  
+    #iconosfooter p{
+        display: inline-block;
+        text-align: center;
+        font-style: italic;
+        font-size: 15px;
+    }
+}
